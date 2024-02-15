@@ -1,5 +1,6 @@
 import React from "react";
 import NavBarContainer from "./NavBarContainer/NavBarContainer";
+import Section from "./SectionContainer/Section";
 
 const Main = () => {
   return (
@@ -14,6 +15,7 @@ const Main = () => {
       }}
     >
       <NavBarContainer />
+      <Section/>
     </div>
   );
 };
