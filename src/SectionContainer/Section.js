@@ -6,7 +6,7 @@ import CustomButton from "../Common/CustomButton";
 const Section = () => {
   const primaryStyle = {
     textTransform: "none",
-    padding: "0px 35px",
+    width: "170px",
   };
   return (
     <div
@@ -21,7 +21,11 @@ const Section = () => {
     >
       {/* Title */}
       {/* Title */}
-      <Typography variant="h4" gutterBottom style={{ marginBottom: "1rem",fontWeight: 'bold' }}>
+      <Typography
+        variant="h4"
+        gutterBottom
+        style={{ marginBottom: "1rem", fontWeight: "bold" }}
+      >
         Introduce Your Product Quickly & Effectively
       </Typography>
 
